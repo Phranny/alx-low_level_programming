@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entry point
  *
@@ -8,7 +7,7 @@
  */
 int main(void)
 {
-	char lch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
