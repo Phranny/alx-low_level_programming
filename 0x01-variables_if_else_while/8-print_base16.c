@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all the numbers of base 16 in lowercase.
+ * main - prints all the numbers of base 16 in lowercase,
  * followed by a new line
- * Retunr: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,11 +14,10 @@ int main(void)
 	{
 		putchar(n);
 	}
-	for (ch ='a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
 }
-
