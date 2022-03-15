@@ -1,18 +1,18 @@
-#include <_putchar.h>
+#include <main.h>
 
 /**
- * main - This script prints "_putchar" 
- * followed by a new line
- * Return: ALways 0 (Success)
- */
+* main - This script prints "_putchar"
+* followed by a new line
+* Return: ALways 0 (Success)
+*/
 int main(void)
 {
-	char ch;
+	char *ch = "_putchar";
 
-	for (ch = _putchar)
+	while (*ch)
 	{
-		_putchar(ch);
-		ch++
+		_puchar(*ch);
+		ch++;
 	}
 	_putchar('\n');
 	return (0);
