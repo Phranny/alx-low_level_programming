@@ -6,7 +6,7 @@
 * 5 below 1024 (excluded), followed by a new line
 * Return: 0
 */
-int main(void
+int main(void)
 {
 	int c = 0;
 	int sum = 0;
