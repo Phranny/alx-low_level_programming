@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * set_string - sets the value of a pointer to a char
- * @s: pointer to pointer
- * @to: pointer char
+ * set_string - Moves a pointer to a string
+ * @s: Pointer to pointer string
+ * @to: Pointer char
  */
 
 void set_string(char **s, char *to)
